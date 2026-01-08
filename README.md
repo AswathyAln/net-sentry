@@ -21,7 +21,7 @@ This runs on a webpage hosted by the Pi. It shows me live data on who is current
 
 ### 2. The Rogue Device Alert
 If a stranger joins the WiFi, my phone buzzes instantly with their IP and MAC address.
-![Phone Notification](alert_mobile.png)
+<img src="phone_alert.png" alt="Phone Notification" width="300">
 
 ### 3. Running in the Background
 I used Docker to containerize the project. This means it runs silently in the background and automatically restarts if the Pi reboots.
