@@ -1,0 +1,7 @@
+scapy
+pandas
+sqlalchemy
+apscheduler
+requests
+plotly
+streamlit
