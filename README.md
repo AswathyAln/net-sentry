@@ -17,15 +17,16 @@ I also built a web dashboard so I can easily see the history of devices coming o
 
 ### 1. The Dashboard
 This runs on a webpage hosted by the Pi. It shows me live data on who is currently online versus offline.
-![Web Dashboard](dashboard_1_view.png, dashboard_2_view.png)
+![Dashboard Main](dashboard_1_view.png)
+![Dashboard Graph](dashboard_2_view.png)
 
 ### 2. The Rogue Device Alert
 If a stranger joins the WiFi, my phone buzzes instantly with their IP and MAC address.
-<img src="phone_alert.png" alt="Phone Notification" width="300">
+<img src="alert_mobile.png" alt="Phone Notification" width="300">
 
 ### 3. Running in the Background
 I used Docker to containerize the project. This means it runs silently in the background and automatically restarts if the Pi reboots.
-![Docker Terminal](dcoker_status.png)
+![Docker Terminal](docker_status.png)
 
 ---
 
